@@ -1,0 +1,44 @@
+:root{
+	--site-width: 98rem;
+}
+
+.header{
+  background: linear-gradient(to right, #e16f3e, #e16f3e);
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  max-width: var(--site-width);
+  margin: 0 auto;
+}
+
+.logopic{
+	padding: 0.5rem;
+}
+
+.title{
+  padding: 3.5rem 0;
+  color: white;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.link{
+  color: white;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 2rem;
+  margin-left:2rem;
+}
+
+.link:focus,
+.link:hover {
+  color: #24A3CF;
+}
